@@ -32,11 +32,16 @@ header {
     
 
     .logo_and_hamburger {
+        margin-top: 0.8125rem;
         width: 100%;
         display: flex;
         justify-content: space-between;
         img {
             height: min-content;
+        }
+
+        .hamburger_btn {
+            margin-right: 1.25rem;
         }
     }
 
@@ -124,6 +129,7 @@ header {
 
         nav {
             justify-content: space-between;
+            align-items: flex-start;
         }
 
         .logo_and_hamburger {

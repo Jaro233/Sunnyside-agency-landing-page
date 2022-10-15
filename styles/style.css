@@ -21,6 +21,7 @@ header nav {
   padding-left: 2.5rem;
 }
 header .logo_and_hamburger {
+  margin-top: 0.8125rem;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -29,6 +30,9 @@ header .logo_and_hamburger img {
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
+}
+header .logo_and_hamburger .hamburger_btn {
+  margin-right: 1.25rem;
 }
 header .h1_text_and_arrow {
   margin-top: 3.75rem;
@@ -105,6 +109,7 @@ header .dropdown__menu .nav__content {
   }
   header nav {
     justify-content: space-between;
+    align-items: flex-start;
   }
   header .logo_and_hamburger {
     align-items: center;
