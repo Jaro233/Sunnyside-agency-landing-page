@@ -99,7 +99,7 @@ header .dropdown__menu .nav__content {
   width: -moz-min-content;
   width: min-content;
 }
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 800px) {
   header .hamburger_btn {
     display: none;
   }
@@ -227,7 +227,7 @@ header .dropdown__menu .nav__content {
 .photos_and_text_divs .image_and_text_on_it .text_on_image p {
   font-family: "Barlow", sans-serif;
 }
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 800px) {
   .photos_and_text_divs .text_and_image {
     flex-direction: row;
     justify-content: center;
@@ -326,7 +326,7 @@ header .dropdown__menu .nav__content {
   width: 100%;
   margin-bottom: -0.3125rem;
 }
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 800px) {
   .profiles_section .display_flex {
     display: flex;
     justify-content: space-around;
@@ -378,7 +378,7 @@ footer .social_media_logos {
   display: flex;
   justify-content: space-evenly;
 }
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 800px) {
   footer .list {
     justify-content: center;
     gap: 2.8125rem;
@@ -421,6 +421,6 @@ html, body {
 }
 
 main {
-  max-width: 1445px;
+  max-width: 1440px;
   width: 100%;
 }/*# sourceMappingURL=style.css.map */
