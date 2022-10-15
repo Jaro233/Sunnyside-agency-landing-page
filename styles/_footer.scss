@@ -1,11 +1,11 @@
 footer {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
     background-color: hsl(168, 46%, 56%);
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 1.875rem;
 
     .logo img {
         filter: invert(40%) sepia(7%) saturate(5835%) hue-rotate(120deg) brightness(50%) contrast(71%);
@@ -22,17 +22,17 @@ footer {
     }
 
     .social_media_logos {
-        padding-top: 30px;
+        padding-top: 1.875rem;
         margin: auto;
         width: 50%;
         display: flex;
         justify-content: space-evenly;
     }
 
-    @media screen and (min-width: 700px) {
+    @media screen and (min-width: 750px) {
         .list {
             justify-content: center;
-            gap: 45px;
+            gap: 2.8125rem;
 
             p {
                 cursor: pointer;
@@ -45,7 +45,7 @@ footer {
 
         .social_media_logos {
             justify-content: center;
-            gap: 25px;
+            gap: 1.5625rem;
 
             img {
                 cursor: pointer;
