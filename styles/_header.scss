@@ -24,8 +24,8 @@ header {
         left: 0;
         width: 100%;
         transform: translate(0%, 0%);
-        padding: 0.9375rem;
-        padding-left: 2.5rem;
+        padding: 1rem
+        // padding-left: 2.5rem;
     }
 
     
@@ -40,9 +40,9 @@ header {
             height: min-content;
         }
 
-        .hamburger_btn {
-            margin-right: 1.25rem;
-        }
+        // .hamburger_btn {
+        //     // margin-right: 1.25rem;
+        // }
     }
 
     .h1_text_and_arrow {
@@ -63,7 +63,7 @@ header {
             text-transform: uppercase;
             color: #fff;
             font-weight: 900;
-            font-size: 2rem;
+            font-size: 2.3rem;
             letter-spacing: 0.4375rem;
             text-align: center;
         }
@@ -130,6 +130,8 @@ header {
         nav {
             justify-content: space-between;
             align-items: flex-start;
+            padding: 0.9375rem;
+            padding-left: 2.5rem;
         }
 
         .logo_and_hamburger {
@@ -154,6 +156,30 @@ header {
                 cursor: pointer;
             }
 
+            .underline_p {
+                display: inline-block;
+                position: relative;
+                // color: #0087ca;
+            }
+            
+            .underline_p:after {
+                content: '';
+                position: absolute;
+                width: 100%;
+                transform: scaleX(0);
+                height: 0.125rem;
+                bottom: -2px;
+                left: 0;
+                background-color: #fff;
+                transform-origin: bottom right;
+                transition: transform 0.5s ease-out;
+            }
+            
+            .underline_p:hover:after {
+                transform: scaleX(1);
+                transform-origin: bottom left;
+            }
+
             #contact_2 {
                 text-transform: uppercase;
                 color: #1f1f1f;
@@ -162,6 +188,7 @@ header {
                 border-radius: 1.75rem;
                 padding: 0.9375rem;
                 font-size: 0.8125rem;
+                transition: 0.3s ease-in-out;
 
                 &:hover {
                     color: #fff;
@@ -178,6 +205,11 @@ header {
 
         .h1_text_and_arrow {
             margin-top: 8.125rem;
+
+            h1 {
+                font-size: 3.625rem;
+            }
+            
         }
     }
 

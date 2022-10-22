@@ -36,6 +36,7 @@ footer {
 
             p {
                 cursor: pointer;
+                transition: 0.3s ease-in-out;
 
                 &:hover {
                     color: white;
@@ -46,9 +47,11 @@ footer {
         .social_media_logos {
             justify-content: center;
             gap: 1.5625rem;
+            
 
             img {
                 cursor: pointer;
+                transition: 0.3s ease-in-out;
                 // background:none;
 
                 &:hover {
