@@ -1,7 +1,7 @@
 footer {
     padding-top: 3.125rem;
     padding-bottom: 3.125rem;
-    background-color: hsl(168, 46%, 56%);
+    background-color: #90D4C5;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -14,11 +14,12 @@ footer {
     }
 
     .list {
-        color: hsl(167, 40%, 24%);
+        color: hsl(168, 34%, 41%);
         display: flex;
         width: 100%;
         justify-content: space-evenly;
         font-family: 'Barlow', sans-serif;
+        list-style-type: none;
     }
 
     .social_media_logos {
@@ -27,6 +28,8 @@ footer {
         width: 50%;
         display: flex;
         justify-content: space-evenly;
+        list-style-type: none;
+        align-items: center;
     }
 
     @media screen and (min-width: 800px) {
@@ -34,7 +37,7 @@ footer {
             justify-content: center;
             gap: 2.8125rem;
 
-            p {
+            a {
                 cursor: pointer;
                 transition: 0.3s ease-in-out;
 
