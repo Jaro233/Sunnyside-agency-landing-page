@@ -401,6 +401,10 @@
 .profiles_section .images img {
   width: 100%;
   margin-bottom: -0.3125rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 .profiles_section .display_flex {
   margin: auto;
