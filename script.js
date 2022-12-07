@@ -5,9 +5,13 @@ const h1_text_and_arrow = document.querySelector(".header-content");
 function open_closeMenu() {
     console.log("toggle")
     dropDownMenu.classList.toggle("hidden")
+    dropDownMenu.classList.toggle("full-opacity")
     // h1_text_and_arrow.classList.toggle("display_col")
     h1_text_and_arrow.classList.toggle("hidden")
     // dropDownMenu.classList.toggle("display_col")
 }
 
+function closeMobileNav() {
+    dropDownMenu.classList.add("hidden")
+}
 

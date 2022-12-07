@@ -1,9 +1,11 @@
+@import "./variables";
+
 .profiles_section {
     text-align: center;
     
     .big_text {
         font-size: 1.125rem;
-        color: hsl(210, 4%, 67%);
+        color: $grayishBlue;
         text-transform: uppercase;
         letter-spacing: 0.1875rem;
         margin-top: 3.8rem;
@@ -12,14 +14,17 @@
     
     .profile {
         padding: 1.25rem;
+        margin: auto;
         margin-top: 1rem;
         display: flex;
         flex-direction: column;
+        width: 100%;
+        // max-width: 20rem;
         gap: 1.5rem;
 
         p {
             font-family: 'Barlow', sans-serif;
-            color: hsl(213, 9%, 39%);
+            color: $grayishBlue;
             padding: 0 1.3rem 0 1.3rem;
             // font-size: 18px;
         }
@@ -32,7 +37,7 @@
         }
 
         .name {
-            color: hsl(212, 27%, 19%);
+            color: $veryDarkDesaturatedBlue;
             font-weight: 900;
         }
 
@@ -40,7 +45,7 @@
            margin-top: 0.625rem; 
            font-family: 'Barlow', sans-serif;
            font-size: 0.8125rem;
-           color: hsl(210, 4%, 67%);
+           color: $grayishBlue;
         }
     }
 
@@ -60,19 +65,22 @@
     }
 
     .display_flex {
-        width: 100%;
-        max-width: 62.5rem;
         margin: auto;
+        margin-top: 2rem;
+        width: 100%;
+        max-width: 66.5rem;
     }
 
     @media screen and (min-width: 768px) {
         .display_flex {
+            margin-top: 0;
             display: flex;
             justify-content: space-around;
             margin-top: 3rem;
         }
 
         .profile {
+            max-width: 25rem;
             padding-left: 0;
             padding-right: 0;
             margin-bottom: 6.25rem;
@@ -93,6 +101,12 @@
                 height: 100%;
             }
             display: flex;
+        }
+    }
+
+    @media screen and (min-width: 1024px) {
+        .display_flex {
+            max-width: 90.5rem;      
         }
     }
 }

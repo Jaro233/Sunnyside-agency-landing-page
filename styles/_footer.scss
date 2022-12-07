@@ -1,3 +1,6 @@
+@import "./variables";
+
+
 footer {
     padding-top: 3.125rem;
     padding-bottom: 3.125rem;
@@ -14,7 +17,7 @@ footer {
     }
 
     .list {
-        color: hsl(168, 34%, 41%);
+        color: $darkModerateCyan;
         display: flex;
         width: 100%;
         justify-content: space-evenly;
@@ -33,6 +36,10 @@ footer {
     }
 
     @media screen and (min-width: 800px) {
+        .logo > img {
+            width: 10.625rem;
+        }
+
         .list {
             justify-content: center;
             gap: 2.8125rem;

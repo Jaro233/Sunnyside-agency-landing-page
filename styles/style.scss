@@ -8,6 +8,11 @@
 // font-family: 'Fraunces', serif;
 .hidden {
     visibility: hidden;
+    opacity: 0;
+}
+
+.full-opacity {
+    opacity: 100%;
 }
 
 * {
@@ -17,6 +22,7 @@
 }
 
 html, body {
+    scroll-behavior: smooth;
     width: 100%;
     height: 100%;
     font-family: 'Fraunces', sans-serif;
@@ -24,6 +30,10 @@ html, body {
     display: flex;
     justify-content: center;
     overflow-x: hidden;
+    a { 
+        text-decoration: none; 
+        color: inherit;
+    }
 }
 
 main {
